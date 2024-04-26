@@ -6,6 +6,18 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+##install project
+You will clone the project from GitHub to your local computer.
+Install credential libraries using Composer: composer install.
+Copy the .env.example file to .env and specify database configurations.
+Generate Laravel application key: php artisan key:generate.
+Run migrations to create the database structure: php artisan migrate.
+Optional: Populate the database with seeding: php artisan db:seed.
+2. Turn on Migrations:
+Run layouts using the command:
+Bash
+Copy code
+php artisan migrate
 
 ## About Laravel
 
