@@ -1,0 +1,15 @@
+الخطوات لإعداد المشروع:
+استنساخ المشروع من GitHub إلى جهاز الكمبيوتر المحلي.
+تثبيت مكتبات الاعتمادات باستخدام Composer: composer install.
+نسخ ملف .env.example إلى .env وتحديد تكوينات قاعدة البيانات.
+توليد مفتاح تطبيق Laravel: php artisan key:generate.
+تشغيل التخطيطات (migrations) لإنشاء هيكل قاعدة البيانات: php artisan migrate.
+اختياري: تعبئة قاعدة البيانات باستخدام بذرة (seeding): php artisan db:seed.
+2. تشغيل التخطيطات (Migrations):
+قم بتشغيل التخطيطات باستخدام الأمر:
+bash
+php artisan migrate
+3. بذر قاعدة البيانات (Seeding):
+قم بتعبئة قاعدة البيانات باستخدام الأمر:
+bash
+php artisan db:seed
